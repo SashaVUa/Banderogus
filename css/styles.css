@@ -1,0 +1,253 @@
+html,
+body{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    margin-top: 38px;
+    margin-bottom: 58px;
+    display:flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+.main-page{
+    background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.logo-text{
+    margin-left: 18px;
+}
+.banderogus-container{
+    background: #fff;
+    padding: 60px 56px;
+    align-self: center;
+}
+.banderogus-title{
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+}
+.banderogus-greeting{
+    color: #1B1D1F;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.banderogus-start-text{
+    color: #FF6B0A;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+.banderogus-descr{
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.banderogus-launch{
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    width: 172px;
+    height: 48px;
+    left: 151px;
+    top: 532px;
+    color: #fff;
+    cursor:pointer;
+}
+.banderogus-image{
+    align-self: flex-end;
+}
+.main-page-row{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* 2 page */
+
+.gus-facts{
+    padding: 52px 0 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gus-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #1B1D1F;
+    margin: 16px 0;
+}
+.gus-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1B1D1F;
+    width: 875px;
+}
+.gus-facts-container{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+.gus-facts-item{
+    width: 33%;
+}
+.gus-fact-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin: 12px 0 32px 0;
+}
+.gus-fact-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    width: 280px;
+}
+
+/* 3 page */
+
+.victory-footer{
+    display: flex;
+    justify-content: center;
+}
+.victory-bgd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1170px;
+    padding: 72px 0;
+    background: linear-gradient(270deg, #C6EAFF 0%, #FFFFFF 100%);
+    margin-bottom: 72px;
+}
+.victory-title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100px;
+    color: #1B1D1F;
+    margin: 16px 0;
+}
+.victory-descr{
+    width: 875px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+}
+
+
+.modal-bgs{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(27 29 31 / 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: all 0.3s ease-in-out;
+}
+.modal-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-form-container{
+    background: #fff;
+    padding: 32px 92px 60px 92px;
+    position: relative;
+}
+.modal-form-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    margin: 32px 0 12px 0;
+}
+.modal-form-descr{
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.modal-form-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.modal-field{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    color: #000000;
+}
+.modal-field-input{
+    background: #FFFFFF;
+    height: 48px;
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    padding: 4px 8px;
+}
+.modal-form-btn{
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    width: 172px;
+    height: 48px;
+    left: 151px;
+    top: 532px;
+    color: #fff;
+    cursor:pointer;
+    border: 0;
+    margin-top: 24px;
+}
+.close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 14px;
+    color: #1B1D1F;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+.modal-descr{
+    margin-bottom: 0;
+}
+.modal-active{
+    opacity: 1;
+    pointer-events: all;
+}
